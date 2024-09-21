@@ -1,0 +1,99 @@
+function vipul() {
+    console.log("Hi, my name is Vipul and this is my first function") // Return the message
+}
+
+const person = {
+    name: "Alice",
+    function1: vipul // Assign the function itself
+};
+
+// Now when you log function1, it will return the message
+console.log(person.function1()); // Outputs: Hi, my name is Vipul and this is my first function
+
+
+
+
+//---------------------------------------------------------------------------//
+
+//we can also write string by this way:-
+
+let name = "vipul"
+let age = 27
+
+console.log(`My name is ${name} and my age is ${age}`)
+
+
+//---------------------------------------------------------------string methods--------------------------------------------------------------------------------
+
+//charAt(): - to check at particular specified position which character is present
+let str = "Hello";
+console.log(str.charAt(1)); // Outputs: "e"
+
+//charCodeAt(): -to check the unicode of a char u can use charCodeAt
+console.log(str.charCodeAt(0)); // Outputs: 72 (Unicode for "H")
+
+//length():-  to check the length of a string
+console.log(str.length); // Outputs: 5
+
+//concat(string1, string2, ...): -to concat or add two strings 
+let str1 = "Hello";
+let str2 = "World";
+console.log(str1.concat("_", str2)) // Outputs: "Hello, World"
+
+//includes(searchString): -to search or check if string contains specified value
+console.log(str1.includes("o")) // Outputs: true
+
+//indexOf(searchString): -to check the index of search string
+console.log(str1.indexOf("l"))
+
+//lastIndexOf(searchString): -to check the last index of specified string
+console.log(str1.lastIndexOf('l')) // Outputs: 3
+
+//slice(startIndex, endIndex): -slice the string from index 1 till character 4th
+console.log(str1.slice(1, 4)) // Outputs: "ell"
+
+//substr(startIndex, length): -to get the portion of the string from specified index to the specified length//
+console.log(str1.substr(1, 4)) // Outputs: "ello"
+
+
+//toLowerCase(): - to convert the given string into lowercase
+console.log(str2.toLowerCase())
+
+//toUpperCase(): - to convert the given string into upper case
+console.log(str2.charAt("3").toUpperCase())
+
+
+//trim(): - trim the spaces from the string
+let strWithSpaces = "   Hello   "
+console.log(strWithSpaces.trim()) // Outputs: "Hello"
+
+//trimStart(): - trim the starting space from the string
+console.log(strWithSpaces.trimStart())
+
+//trimEnd(): - trim the end space from the string
+console.log(strWithSpaces.trimEnd())
+
+
+//replace(searchValue, newValue): - to replace the some vale with the new value
+let sentence = "Hi, How are you?, tell me How are you?"
+console.log(sentence.replace("How", "Where"))
+
+//replaceAll(searchValue, newValue): - 
+//console.log(sentence.replaceAll("How", "where"))
+
+
+//split(separator): - to split the values into an array
+let sentence1 = "Hello, how are you?"
+console.log(sentence1.split(" ")) // Outputs: ["Hello,", "how", "are", "you?"]
+
+//join(separator) (used with arrays): - It is used to join the value of an array
+let words = ["Hello", "world"];
+console.log(words.join(" ")); // Outputs: "Hello world"
+
+//search(regexp):
+
+
+
+
+
+
