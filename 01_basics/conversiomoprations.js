@@ -28,3 +28,30 @@ let newnumber = null
 //let convertage = Number(age)
 let convertagainnumber = Boolean(newnumber)
 console.log(typeof convertagainnumber)
+
+
+
+
+
+// ---------------------0perations-----------------------------------------------//
+
+
+console.log ("1" + 2)
+console.log (1 + "2")
+console.log ("1" + 2 + 2)
+console.log (1 + 2 + "2")
+console.log(( (3 + 4) *5) /3)
+
+// precedence operator 
+//prefix and postfix
+
+let gamecounter = 1100
+//++gamecounter;
+//let newgamecounter = ((++gamecounter) + (++gamecounter))
+//let new1gamecounter = ((gamecounter++) + (gamecounter++))
+let new2gamecounter = ((++gamecounter) + (gamecounter++))
+
+
+//console.log(newgamecounter)
+//console.log(new1gamecounter)
+console.log(new2gamecounter)
